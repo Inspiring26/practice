@@ -7,7 +7,7 @@ function shadowsocksconfig(){
     PORT="443"
     LOACL="127.0.0.1"
     LOCALPORT="1080"
-    PASSWORD="dfdgdhfgjhgrtsfgs"
+    PASSWORD=""
     DNS="8.8.8.8"
     TIMEOUT="600"
     METHOD="aes-256-cfb"
