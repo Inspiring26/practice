@@ -388,8 +388,8 @@ class SimProcessor(DataProcessor):
   #         index += 1
   #     return test_data
 
-  def get_labels(self):
-    return ['0', '1', '2', '3']
+  def get_labels(self):#['0', '1', '2', '3']
+    return [str(_) for _ in range(25)]
 
 
 class MnliProcessor(DataProcessor):
